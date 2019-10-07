@@ -1,4 +1,5 @@
 import Skabninger.Andras;
+import Skabninger.Rick;
 import Skabninger.SkabningsListe;
 import Skabninger.SkabningsPrototype;
 
@@ -34,6 +35,8 @@ public class Spil {
 
         // TODO Her skal alle nye skabninger tilføjes!
         Andras andras = new Andras();
+
+        Rick rick = new Rick();
 
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
